@@ -1,0 +1,76 @@
+.navbar {
+    display:flex;
+    justify-content: end;
+    padding:20px;
+    background-color:darkblue;
+    margin:0px;
+}
+.links {
+    display:flex;
+    gap:10px;
+}
+.links a {
+    color:white;
+    font-style: none;
+    text-decoration: none;
+}
+body {
+    margin:0px;
+}
+.productImage {
+    width:200px;
+    height:auto;
+}
+.description{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.shopTitle {
+    display:flex;
+    justify-content:center;
+}
+.products {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    align-items:center;
+}
+.addCartButton {
+    background-color:black;
+    color:white;
+    border-radius:40px;
+}
+.cartItem {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    align-items:center;
+}
+.editItem {
+    margin-top:-5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.addRemove{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+}
+.cartTitle {
+    display:flex;
+    justify-content:center;
+}
+.subtotal {
+    display:flex;
+    justify-content:center;
+}
